@@ -1,0 +1,16 @@
+proyecto_facturacion/
+├── .env                    # Variables de entorno (credenciales)
+├── .gitignore             # Archivos a ignorar por Git
+├── requirements.txt       # Dependencias del proyecto
+├── README.md              # Documentación del proyecto
+├── src/                   # Código fuente
+│   ├── __init__.py
+│   ├── database.py        # Clase DatabaseConnection (Actividad 2)
+│   ├── models.py          # Modelos de datos (Actividad 3)
+│   ├── services.py        # Servicios de negocio (Actividad 3)
+│   └── main.py            # API REST (Actividad 4)
+├── tests/                 # Pruebas unitarias
+│   ├── __init__.py
+│   └── test_database.py   # Pruebas de la capa de persistencia
+└── sql/                   # Scripts SQL
+    └── schema.sql         # Script de creación de BD (Actividad 1)
