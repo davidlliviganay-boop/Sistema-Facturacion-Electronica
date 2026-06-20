@@ -1,0 +1,4 @@
+# Dependencias del proyecto
+mysql-connector-python==8.2.0   # Conector oficial de MySQL
+python-dotenv==1.0.0            # Carga variables de entorno
+pytest==7.4.3                    # Framework de pruebas
