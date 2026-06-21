@@ -1,16 +1,23 @@
 proyecto_facturacion/
-├── .env                    # Variables de entorno (credenciales)
-├── .gitignore             # Archivos a ignorar por Git
-├── requirements.txt       # Dependencias del proyecto
-├── README.md              # Documentación del proyecto
-├── src/                   # Código fuente
+├── .env                         # Variables de entorno
+├── .gitignore                   # Archivos ignorados
+├── requirements.txt             # Dependencias
+├── README.md                    # Documentación
+├── run.py                       # Punto de entrada de la API
+├── test_api_manual.py           # Prueba manual de la API
+├── test_business_logic.py       # Prueba de lógica de negocio
+├── test_connection.py           # Prueba de conexión a BD
+├── src/
 │   ├── __init__.py
-│   ├── database.py        # Clase DatabaseConnection (Actividad 2)
-│   ├── models.py          # Modelos de datos (Actividad 3)
-│   ├── services.py        # Servicios de negocio (Actividad 3)
-│   └── main.py            # API REST (Actividad 4)
-├── tests/                 # Pruebas unitarias
+│   ├── database.py              # Capa de persistencia (Actividad 2)
+│   ├── models.py                # Modelos de datos (Actividad 3)
+│   ├── services.py              # Servicios de negocio (Actividad 3)
+│   ├── schemas.py               # Esquemas Pydantic (Actividad 4)
+│   └── main.py                  # API REST (Actividad 4)
+├── tests/
 │   ├── __init__.py
-│   └── test_database.py   # Pruebas de la capa de persistencia
-└── sql/                   # Scripts SQL
-    └── schema.sql         # Script de creación de BD (Actividad 1)
+│   ├── test_database.py         # Pruebas de base de datos
+│   ├── test_services.py         # Pruebas de servicios
+│   └── test_api.py              # Pruebas de API
+└── sql/
+    └── schema.sql               # Script de BD (Actividad 1)

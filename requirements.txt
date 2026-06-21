@@ -2,3 +2,10 @@
 mysql-connector-python==8.2.0   # Conector oficial de MySQL
 python-dotenv==1.0.0            # Carga variables de entorno
 pytest==7.4.3                    # Framework de pruebas
+
+# Dependencias para la API REST (Actividad 4)
+fastapi==0.104.1
+uvicorn==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+pydantic-settings==2.1.0
